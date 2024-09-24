@@ -139,7 +139,7 @@ export const Message = ({
               "bg-rose-500/50 transform transition-all scale-y-0 origin-bottom duration-200"
           )}
         >
-          <div className="flex items-start gap-2">
+          <div className="flex items-start gap-x-3 gap-y-2">
             <Hint label={formatFullTime(new Date(createdAt))}>
               <button
                 type="button"
